@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "horsestonks",
+  "version": "${version}",
+
+  "name": "Horse Stonks",
+  "description": "Prevents horses from getting worse stats than both their parents",
+  "authors": [
+    "Ceeveer"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "Apache License 2.0",
+  "icon": "assets/horsestonks/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": []
+  },
+  "mixins": [
+    "horsestonks.mixins.json"
+  ],
+
+  "depends": {
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
